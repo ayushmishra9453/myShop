@@ -1,0 +1,102 @@
+/* .signup{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 30px 25px 20px;
+    height: 415px;
+    width: 25%;
+    position: relative;
+    /* position: absolute;
+    left: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px; */
+/* }
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 13px;
+}
+.input{
+    height: 20px; 
+     margin-left: 0px;
+    width: 80%;
+}
+.btn{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(7, 36, 62);
+    color: azure;
+    position: absolute;
+    left: 47px;
+    top: 385px;
+}
+.btn:hover{
+    background-color: rosybrown;
+    color: beige;
+}
+ .bottom{
+    display: flex;
+    flex-direction: row;
+} 
+ .bottom p{
+    position: absolute;
+    right: 33px;
+    top: 362px;
+}
+.bottom a{
+    position: absolute;
+    right: 80px;
+    bottom: 32px;
+}  */ 
+
+
+.login-page, .signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 25rem;
+  }
+  
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+   
+  }
+  .bottom p{
+    margin-right: 11rem;
+    margin-bottom: 0px;
+  }
+  .bottom a{
+    margin-right: 11rem;
+    margin-bottom: 0px;
+  }
+
+  
